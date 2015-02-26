@@ -1,0 +1,14 @@
+{
+	"name": "kirchbergerknorr/IWD_All",
+	"description": "IWD_All",
+	"type": "magento-module",
+	"authors": [
+		{
+			"name": "Susanne Krieg",
+			"email": "sk@kirchbergerknorr.de"
+		}
+	],
+	"require": {
+		"magento-hackathon/magento-composer-installer": "*"
+	}
+}
