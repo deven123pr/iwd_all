@@ -1,6 +1,6 @@
 {
-	"name": "kirchbergerknorr/IWD_All",
-	"description": "IWD_All",
+	"name": "kirchbergerknorr/iwd_all",
+	"description": "IWD_All extension",
 	"type": "magento-module",
 	"authors": [
 		{
