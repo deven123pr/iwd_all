@@ -1,7 +1,7 @@
 <?php
 class IWD_All_Helper_Data extends Mage_Core_Helper_Abstract
 {
-    const TO_EMAIL = 'help@iwdextensions.com';
+    const TO_EMAIL = 'extensions@iwdagency.com';
     const TO_NAME = 'Support';
 
     private $information = '<table rules="all" frame="border">';
@@ -185,5 +185,16 @@ class IWD_All_Helper_Data extends Mage_Core_Helper_Abstract
         } catch (Exception $ex) {
             Mage::getSingleton('core/session')->addError(Mage::helper('iwdall')->__($ex->getMessage()));
         }
+    }
+
+    public function getAuthorizenetTrackingCode()
+    {
+        if(Mage::helper('core')->isModuleEnabled('IWD_POS'))
+            return 'A1000128';
+        return 'A1000127';
+    }
+
+    public function isEnterprise(){
+        return Mage::getConfig()->getModuleConfig('Enterprise_Enterprise') && Mage::getConfig()->getModuleConfig('Enterprise_AdminGws') && Mage::getConfig()->getModuleConfig('Enterprise_Checkout') && Mage::getConfig()->getModuleConfig('Enterprise_Customer');
     }
 }
