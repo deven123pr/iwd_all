@@ -4,4 +4,6 @@ app/design/adminhtml/default/default/template/iwd/jsinit.phtml	app/design/adminh
 app/design/frontend/base/default/layout/iwd_all.xml				app/design/frontend/base/default/layout/iwd_all.xml
 app/design/frontend/base/default/template/iwd/all/				app/design/frontend/base/default/template/iwd/all/
 app/etc/modules/IWD_All.xml										app/etc/modules/IWD_All.xml
-app/locale/en_US/IWD_All.csv									app/locale/en_US/IWD_All.csv	
+app/locale/en_US/IWD_All.csv									app/locale/en_US/IWD_All.csv
+js/iwd/all/														js/iwd/all/
+skin/adminhtml/default/default/iwd/all/							skin/adminhtml/default/default/iwd/all/
