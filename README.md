@@ -14,5 +14,5 @@ Installation
 Run the following command:
 
 ```
-composer require kirchbergerknorr/iwd_opc ~2.0.4
+composer require kirchbergerknorr/iwd_all ~2.0.4
 ```
